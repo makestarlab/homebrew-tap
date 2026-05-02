@@ -9,7 +9,7 @@ class MakestarAdminCli < Formula
   def install
     bundle_root = (buildpath/"makestar-admin").directory? ? buildpath/"makestar-admin" : buildpath
     libexec.install bundle_root.children
-    (bin/"makestar-admin").write_exec_script libexec/"makestar-admin"
+    bin.write_exec_script libexec/"makestar-admin"
   end
 
   test do
