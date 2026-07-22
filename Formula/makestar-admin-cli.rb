@@ -1,9 +1,9 @@
 class MakestarAdminCli < Formula
   desc "Command-line tools for Makestar admin operations"
   homepage "https://github.com/makestarlab/makestar-admin-cli-releases"
-  url "https://github.com/makestarlab/makestar-admin-cli-releases/releases/download/r2026.07.16/makestar-admin-darwin-arm64.zip"
-  version "0.2.13"
-  sha256 "c835c1078333544d53aa0111f40498967bf07fbeaaffcf4cd8458f80691c52f4"
+  url "https://github.com/makestarlab/makestar-admin-cli-releases/releases/download/r2026.07.22/makestar-admin-darwin-arm64.zip"
+  version "0.2.14"
+  sha256 "fd70037034e02dfbc0c67a34f225ab3f22a259be15dd56b7f0f4ce12d3c4802a"
   license :cannot_represent
 
   def install
